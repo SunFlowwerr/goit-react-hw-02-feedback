@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
-import css from './Notification.module.css';
+// import css from './Notification.module.css';
 
-export const Notification = ({ message }) => (
-  <p className={css.message}>{message}</p>
-);
+export const Notification = ({ message }) => <p>{message}</p>;
 Event.propTypes = {
   message: PropTypes.string.isRequired,
 };
